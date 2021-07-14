@@ -12,6 +12,12 @@ Entries should include a reference to the Pull Request that introduced the chang
 
 ## Unreleased
 
+## 1.4.1
+
+* [CHANGE] The compactor data directory configuration has been corrected to `/data`.
+  > **Warning:** Existing clusters will need to follow an upgrade procedure.
+  > TODO(jdb): document
+
 ## 1.4.0
 
 * [CHANGE] Use updated querier response compression configuration, changed in 1.4.0. #524
